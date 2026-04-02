@@ -1,7 +1,6 @@
 # SinglePrompt (CVPRF 2026)
 
 Pytorch Implementation for [Is Prompt Selection Necessary for Task-Free Online Continual Learning?]
-All results are averaged over five runs with different random seeds {1,2,3,4,5}.
 
 ## Install
 ```bash
