@@ -35,8 +35,6 @@ bash scripts/buffer0_tiny.sh
 bash scripts/buffer0_imgr.sh
 ```
 
----
-
 ###  2. Buffer-based Training
 
 Supervised training enhanced with memory replay (buffer).
@@ -86,7 +84,7 @@ Modify the following arguments in the script:
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition-FINDINGS Track (CVPRF)},
   year={2026}
 }
-
+```
 ---
 
 ## Acknowledgement
