@@ -2,11 +2,21 @@
 
 Pytorch Implementation for [Is Prompt Selection Necessary for Task-Free Online Continual Learning?]
 
+## Overview
+An overview of the proposed SinglePrompt.
+<p align="center">
+<img src="./figures/main_figure.png"  alt="" align=center />
+</p>
+
+---
+
 ## Install
 ```bash
 conda env create -f environment.yml
 conda activate tfocl
 ```
+
+---
 
 ##  How to Run
 
@@ -52,7 +62,33 @@ Modify the following arguments in the script:
   - `MEM_SIZE=500`
   - `MEM_SIZE=2000`
  
- ---
+---
 
- ### Acknowledgement
+## Experiments
+### Image Classification on Si-Blurry Benchmark
+<p align="center">
+<img src="./figures/main_result.png"  alt="" align=center />
+</p>
+
+### Component Ablation Studies
+<p align="center">
+<img src="./figures/ablation_study.png"  alt="" align=center />
+</p>
+
+---
+
+## Citation
+
+```bibtex
+@inproceedings{park2026singleprompt,
+  title={Is Prompt Selection Necessary for Task-Free Online Continual Learning?},
+  author={Park, Seoyoung, Lee, Haemin and Lee, Hankook},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition-FINDINGS Track (CVPRF)},
+  year={2026}
+}
+
+---
+
+## Acknowledgement
+
 This implementation is developed based on the source code of [MISA](https://github.com/kangzhiq/MISA), [MVP](https://github.com/KU-VGI/Si-Blurry).
