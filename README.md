@@ -3,7 +3,7 @@
 Pytorch Implementation for [Is Prompt Selection Necessary for Task-Free Online Continual Learning?]
 
 ## Overview
-An overview of the proposed SinglePrompt.
+We propose a simple yet effective SinglePrompt that eliminates the need for prompt selection and focuses on classifier optimization. Specifically, we simply (i) inject a single prompt into each self-attention block, (ii) employ a cosine similarity-based logit design to alleviate the forgetting effect inherent in the classifier weights, and (iii) mask logits for unexposed classes in the current minibatch.
 <p align="center">
 <img src="./figures/main_figure.png"  alt="" align=center />
 </p>
@@ -64,6 +64,7 @@ Modify the following arguments in the script:
 
 ## Experiments
 ### Image Classification on Si-Blurry Benchmark
+We compare our proposed simple baseline to prior works in Online Continual Learning.
 <p align="center">
 <img src="./figures/main_result.png"  alt="" align=center />
 </p>
