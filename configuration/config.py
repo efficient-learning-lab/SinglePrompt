@@ -23,7 +23,7 @@ def base_parser():
     parser.add_argument(
         "--log_path",
         type=str,
-        default="result_for_AUC",
+        default="result",
         help="The path logs are saved.",
     )
     parser.add_argument(
