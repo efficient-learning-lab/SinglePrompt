@@ -81,7 +81,7 @@ We compare our proposed simple baseline to prior works in Online Continual Learn
 ```bibtex
 @inproceedings{park2026singleprompt,
   title={Is Prompt Selection Necessary for Task-Free Online Continual Learning?},
-  author={Park, Seoyoung, Lee, Haemin and Lee, Hankook},
+  author={Park, Seoyoung and Lee, Haemin and Lee, Hankook},
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition-FINDINGS Track (CVPRF)},
   year={2026}
 }
