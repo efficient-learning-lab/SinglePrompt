@@ -1,6 +1,9 @@
 # SinglePrompt (CVPRF 2026)
 
 Pytorch Implementation for [Is Prompt Selection Necessary for Task-Free Online Continual Learning?]
+<p align="center">
+<img src="./figures/Poster.png"  alt="" align=center />
+</p>
 
 ## Overview
 We propose a simple yet effective SinglePrompt that eliminates the need for prompt selection and focuses on classifier optimization. Specifically, we simply (i) inject a single prompt into each self-attention block, (ii) employ a cosine similarity-based logit design to alleviate the forgetting effect inherent in the classifier weights, and (iii) mask logits for unexposed classes in the current minibatch.
